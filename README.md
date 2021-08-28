@@ -7,7 +7,7 @@ So, you can change this to whatever you want.
 ```bash
 docker build -t simple_web:0.1 .
 ```
-![alt text](/Users/heegyoung/Desktop/image_built.png?raw=true)
+<img width="344" alt="image_built" src="https://user-images.githubusercontent.com/89409087/131225225-4bba6b70-fdd6-4a6c-b996-62851bf90ab5.png">
 
 ---
 ###2. Create network
@@ -34,7 +34,7 @@ docker inspect simple_web1
 ```bash
 docker inspect simple_web2
 ```
-![alt text](/Users/heegyoung/Desktop/docker_inspect.png?raw=true)
+<img width="146" alt="docker_inspect" src="https://user-images.githubusercontent.com/89409087/131225228-41148e91-de7b-4af1-becb-7950d53f2795.png">
 
 ---
 ### 5. Run web server
@@ -48,7 +48,7 @@ uvicorn main:app --reload --host {simple_web1 ip address} --port 8000
 ```bash
 uvicorn main:app --reload --host {simple_web2 ip address} --port 8000
 ```
-![alt text](/Users/heegyoung/Desktop/uvicorn.png?raw=true)
+<img width="669" alt="uvicorn" src="https://user-images.githubusercontent.com/89409087/131225231-c6cdf4e8-7675-4110-962d-054d021e06b6.png">
 
 ---
 ### 6. Build haproxy image
@@ -82,3 +82,5 @@ haproxy -c -f /etc/haproxy/haproxy.cfg
 ```bash
 service haproxy start
 ```
+https://user-images.githubusercontent.com/89409087/131225237-60b67c2d-b14f-46bd-b70f-7b865c6ce9ba.mov
+
