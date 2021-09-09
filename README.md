@@ -1,9 +1,11 @@
 # Waiting Room Concept -!
----
 
 ### 0. Why I thought this concept?
 I was just curious how can I control web traffic before WAS being collapsed.
 And I thought If I could keep clients in a queue and check a WAS can afford, I can send clients to a WAS at a proper time.
+
+![WaitingSystem](https://user-images.githubusercontent.com/89409087/132750309-af716385-98d0-48c9-b2c7-ca2c5ab7d59a.png)
+
 ---
 ### 1. Build web server image
 _simple_web_ is going to be an image name and _0.1_ is a tag.  
@@ -140,3 +142,6 @@ rabbitmqadmin declare binding --vhost={www.exampleq.com} source={your_exchanger}
 ```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
+
+https://user-images.githubusercontent.com/89409087/132750340-6e98c7a0-e9fe-498c-8fee-c592521fda14.mov
+
