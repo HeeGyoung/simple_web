@@ -4,7 +4,7 @@
 I was just curious how can I control web traffic before WAS being collapsed.
 And I thought If I could keep clients in a queue and check a WAS can afford, I can send clients to a WAS at a proper time.
 
-![WaitingSystem](https://user-images.githubusercontent.com/89409087/132750309-af716385-98d0-48c9-b2c7-ca2c5ab7d59a.png)
+<img width="776" alt="Screen Shot 2021-09-09 at 3 32 54 PM" src="https://user-images.githubusercontent.com/89409087/132750990-7cf15081-af6a-4414-94f5-b0249123334e.png">
 
 ---
 ### 1. Build web server image
