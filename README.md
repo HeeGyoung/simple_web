@@ -143,5 +143,5 @@ rabbitmqadmin declare binding --vhost={www.exampleq.com} source={your_exchanger}
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-https://user-images.githubusercontent.com/89409087/132750340-6e98c7a0-e9fe-498c-8fee-c592521fda14.mov
+![WaitingSystem](https://user-images.githubusercontent.com/89409087/132750489-8a7de89a-c9b2-4f6f-a937-46768dc4d842.png)
 
